@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<!--  -->
+<!-- the doctype above signifies the version of html  -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
+    <!-- external stylesheet below -->
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
 </head>
 <body>
     <div class="quiz-container">
         <div class="quiz-header">
+            <!-- quiz head -->
             <h2 id="question-head">Question Text</h2>
             <form>
                 <ul>
+                    <!-- quiz options -->
                     <li>
                         <input type="radio" id="a" name="options" value="a">
                         <label for="a" id="a-text">Options</label>
@@ -31,10 +34,12 @@
                     </li>
                 </ul>
         </div>
+        <!-- the submit button for the quiz which trigggers changes in question -->
             <button type="submit" id="submit">Submit</button>
             </form>
     
     </div>
 </body>
+<!-- external javascipt -->
 <script type="module" src="./js/main.js"></script>
 </html>

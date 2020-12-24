@@ -1,3 +1,4 @@
+// Below is an array with quiz questions inside it
 const quizData = [
     {
         question: "What is the capital of Nigeria?",
@@ -41,6 +42,7 @@ const quizData = [
     },    
 ];
 
+// here is an immediately invoked function that export the quizData and manage how quizData is been fetched
 let quizApp = (function(){
     return{
         getQuestion: function(data){
@@ -52,4 +54,5 @@ let quizApp = (function(){
     };
 })();
 
+// Export quizApp here
 export {quizApp};
